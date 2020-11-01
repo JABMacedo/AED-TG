@@ -1,0 +1,30 @@
+Pseudocódigo
+
+/*
+Autores: José(12939) , Augusto(21136)
+Data: 25/10/2020
+Função: Indica se um ano é ou não bissexto.
+*/
+
+//Variaveis
+
+    ano : inteiro
+
+Inicio
+
+//Pedir dados
+    Ler (ano)
+
+//Condições 
+    se(ano % 4 == 0 E ano % 100 !=0)
+        escrever ("Ano bissexto.")
+        senao 
+            se (ano % 4 == 0 E ano % 100 !=0 E ano % 400 == 0)
+                escrever ("Ano bissexto.")
+            senao
+                escrever ("Ano nao bissexto.")
+            fim-se
+        fim-se
+    fim
+  
+Fim

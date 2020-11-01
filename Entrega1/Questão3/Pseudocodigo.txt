@@ -1,0 +1,21 @@
+Algoritmo
+
+//Variaveis
+
+port, mat, ing, geo, media: real.
+
+Inicio
+
+//Pedir dados
+ler(port, mat, ing, geo)
+
+//Calculo da media
+media = (port + mat + ing + geo) / 4
+
+//Condição
+se(media superior a 9.5)
+    entao escrever(Aluno aprovado)
+    senao escrever(Aluno reprovado)
+fim-se
+
+fim

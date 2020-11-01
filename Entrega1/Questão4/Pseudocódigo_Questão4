@@ -1,0 +1,41 @@
+Pseudocódigo
+
+	/*
+	Autores: José(12939) , Augusto(21136)
+	Data: 25/10/2020
+	Função: Desconto em vacinas em relação ao tamanho e genero do gato.
+	*/
+
+Variaveis
+
+	genero, comprimento : inteiro
+
+Inicio
+
+//Pedir dados
+	Ler (comprimento, genero)
+
+//Condição
+
+	Se (comprimento >= 6 E comprimento < 10 e genero != 1)
+		Escrever ("Desconto é igual a 10%.")
+		Senão 
+			Se (comprimento >= 10 E comprimento < 15 e genero != 0)
+				Escrever("O desconto é igual a 9%.")
+				Senão 
+					Se (comprimento >= 15 E comprimento < 18 e genero != 1)
+						Escrever("O desconto é igual a 8%.")
+						Senão 
+							Se (comprimento >= 18 E comprimento < 25 e genero != 0)
+								Escrever("O desconto é igual a 7%.")
+							Senão 
+								Escrever("O desconto é igual a 5%.")
+							Fim Se
+						Fim Se
+					Fim Se
+				Fim Se
+			Fim Se
+		Fim Se
+	Fim Se
+	
+Fim
