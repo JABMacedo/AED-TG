@@ -1,0 +1,55 @@
+Pseudocódigo
+/*
+Autores: José , Augusto
+Data: 24/10/2020
+Função: Calcular a media de refeições entregues de 5 paquetes e soma dos paquetes que entregaram mais de 4 refeições
+*/
+
+//Variaveis
+
+uber1, uber2, uber3, uber3, uber4, uber5 , soma : inteiro
+media : real
+
+Inicio
+
+//Pedir dados
+Ler (uber1, uber2, uber3, uber3, uber4, uber5)
+
+//Cálculo da média
+media = (uber1 + uber2 + uber3 + uber4 + uber5) / 5
+
+//Condições para a soma
+se(uber1 <= 4)
+    entao (uber1 = 0)
+    senao uber1=uber1
+fim se
+
+se(uber2 <= 4)
+    entao (uber2 = 0)
+    senao uber2=uber2
+fim se
+
+se(uber3 <= 4)
+    entao (uber3 = 0)
+    senao uber3=uber3
+fim se
+
+se(uber4 <= 4)
+    entao (uber4 = 0)
+    senao uber4=uber4
+fim se
+
+se(uber5 <= 4)
+    entao (uber5 = 0)
+    senao uber5=uber5
+fim se
+
+//Cálculo da soma
+soma = (uber1 + uber2 + uber3 + uber4 + uber5)
+
+//Mostrar resultado
+escrever (media)
+escrever (soma)    
+
+Fim
+
